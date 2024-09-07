@@ -29,7 +29,8 @@ price_data = Gold_price['Price'].values
 # Calculate mean and variance
 mean_price = np.mean(price_data)
 var_price = np.var(price_data)
-
+```
+```
 # Normalize the data (subtract mean and divide by standard deviation)
 normalized_price = (price_data - mean_price) / np.sqrt(var_price)
 
